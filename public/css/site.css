@@ -1,0 +1,117 @@
+html, body {
+    height: 100vh;
+    font-size: 0.9em;
+}
+
+nav {
+    height: 10vh;
+}
+
+.promo {
+    background: url('../img/jetta.jpg') no-repeat;
+    min-height: 100vh;
+}
+
+.promo1, .promo2, .promo3 {
+    color: white;
+    font-size: 1.2em;
+    margin: 5% 0;
+    padding: 0 20%;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.promo2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.promo3 {
+    color: yellow;
+    font-weight: bold;
+}
+
+.form {
+    background: gold;
+    border-radius: 4px;
+    padding: 0 2em;
+    text-align: center;
+}
+
+.form > .h2 {
+    margin: 1em 0;
+}
+
+.form input:not(.checkbox):not([type='button']), .form select {
+    border-color: lightgray;
+    border-radius: 5px;
+    border-style: ridge;
+    border-width: 1px;
+    display: inline-block;
+    height: 2em;
+    padding: 0 2em;
+    margin: 0 0 1em 0;
+    width: 80%;
+}
+
+.form select {
+    padding: 0 1.7em;
+}
+
+.form span.rqdAstk {
+    color: red;
+    font-size: 1.3em;
+}
+
+.habeas_data {
+    margin: 0 0 0 2em;
+    text-align: left;
+}
+
+.habeas_data span {
+    width: 90%;
+}
+
+.habeas_data span, .habeas_data .checkbox {
+    float: left;
+}
+
+.guardar {
+    font-size: 1.4em;
+    height: 2em;
+    margin: 0 0 1em 0;
+    text-shadow: 1px 1px black;
+    width: 10em;
+}
+
+#mensaje {
+    cursor: pointer;
+    left: 36%;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 25em;
+}
+
+.ganador {
+    color: white;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    padding: 4em 0;
+    width: 80%;
+}
+
+.exportar {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 2px;
+}
+
+.help-block {
+    color: #a94442;
+    display: block;
+    margin: 5px 0 10px 0;
+}
